@@ -1,4 +1,9 @@
-$("h1").addClass("big-title margin-50");
+$("h1").text("Bye");
+
+$("button").html("<em>Hey</em>");
+
+// multiple classes added
+// $("h1").addClass("big-title margin-50");
 
 // Tap into css
 // $("h1").css("color", "red");
