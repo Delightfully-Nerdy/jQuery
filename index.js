@@ -1,6 +1,34 @@
-$("h1").text("Bye");
+// other event listener
+$("h1").on("click", function () {
+  $("h1").css("color", "purple");
+});
 
-$("button").html("<em>Hey</em>");
+// detect key stokes
+// $(document).keypress(function (event) {
+//   $("h1").text(event.key);
+// });
+
+// // for all elements
+// $("button").click(function () {
+//   $("h1").css("color", "purple");
+// });
+
+// event listeners
+// $("h1").click(function () {
+//   $("h1").css("color", "purple");
+// });
+
+// assign by attributes
+// $("a").attr("href", "https://www.yahoo.com");
+
+// get value of attributr
+// console.log($("img").attr("src"));
+
+// change text with text
+// $("h1").text("Bye");
+
+// change text with html
+// $("button").html("<em>Hey</em>");
 
 // multiple classes added
 // $("h1").addClass("big-title margin-50");
